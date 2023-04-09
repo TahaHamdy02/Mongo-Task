@@ -39,7 +39,7 @@ async function main() {
     const options = {
       // (A->Z)
       sort: { name: 1 },
-      // Include only the `title` and `content` fields in the returned document
+      // Include only the document without id
       projection: { _id: 0, name: 1, age: 1, city: 1 },
     };
 
